@@ -8,20 +8,27 @@
     <title>Discount Calculator</title>
 </head>
 <body>
-    <h1>Calcula el descuento de tu compra</h1>
-    <form action="">
-        <label for="precio">
-            Precio:
-        </label>
-        <input id="precio" type="number">
+    <main>
 
-        <label for="descuento">
-            Descuento (%):
-        </label>
-        <input id="descuento" type="number">
-
-        <button type="button" onclick="calcularDescuento()">Calcular</button>
-    </form> 
+        <h1>Calculadora de descuentos</h1>
+        <div>
+            <h1>Calcula el descuento de tu compra</h1>
+            <form action="">
+                <label for="precio">
+                    Precio:
+                </label>
+                <input id="precio" type="number">
+        
+                <label for="descuento">
+                    Descuento (%):
+                </label>
+                <input id="descuento" type="number">
+        
+                <button type="button" onclick="calcularDescuento()">Calcular</button>
+            </form> 
+        </div>        
+    </main>
+    
     <script src="./discount.js"></script>
 </body>
 </html>

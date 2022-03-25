@@ -1,4 +1,3 @@
-
 function discount(precio, descuento) {
     const valor1 = precio;
     const valor2 = 100 - descuento;
