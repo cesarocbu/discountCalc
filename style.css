@@ -96,3 +96,10 @@ input:hover {
 input:focus{
     border: 5px solid #F05454;
 }
+
+form p{
+    height: 30px;
+    width: 100%;
+    font-size: 26px;
+    text-align: center;
+}

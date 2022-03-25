@@ -16,5 +16,6 @@ function calcularDescuento(){
     const descuentoF = parseInt(desc.value);
 
     const resultado = discount(precioF, descuentoF);
-    alert("Vas a pagar: " +"$"+ resultado);
+    const resultP = document.getElementById("resultLabel");
+    resultP.innerHTML = "Total: $" + resultado;
 }
