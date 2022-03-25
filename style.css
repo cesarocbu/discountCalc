@@ -19,6 +19,7 @@ main{
 }
 
 div{
+    width: 70%;
     background-color: #6c7b91;
     max-width: 350px;
     color: #DDDDDD;
